@@ -18,7 +18,7 @@ StmtSourceFile = namedtuple("SourceFile",["filename","line_number"])
 StmtRemark =    namedtuple("Remark",["text","line_number"])
 StmtEffectsName = namedtuple("EffectsName",["name","line_number"])
 StmtSourceUMID =   namedtuple("Source",["name","umid","line_number"])
-StmtSplitEdit = namedtuple("SplitEdit",["video","magnitue", "line_number"])
+StmtSplitEdit = namedtuple("SplitEdit",["video","magnitude", "line_number"])
 StmtMotionMemory = namedtuple("MotionMemory",["source","fps"]) # FIXME needs more fields
 StmtUnrecognized = namedtuple("Unrecognized",["content","line_number"])
 
